@@ -1,0 +1,35 @@
+{
+  "widgets": [
+      {
+         "type":"metric",
+         "x":0,
+         "y":0,
+         "width":6,
+         "height":6,
+         "properties":{
+            "metrics":[
+               [
+                  "AWS/EC2",
+                  "CPUUtilization",
+                  "InstanceId",
+                  "i-0f8576c694a466b25"
+               ]
+            ],
+            "period":30,
+            "stat":"Average",
+            "region":"ap-southeast-2",
+            "title":"EC2 Instance CPU"
+         }
+      },
+      {
+      "type":"text",
+      "x":0,
+      "y":7,
+      "width":3,
+      "height":3,
+      "properties":{
+         "markdown":"Hello world"
+      }
+   }
+  ]
+}
